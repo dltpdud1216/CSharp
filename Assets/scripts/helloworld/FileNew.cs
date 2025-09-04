@@ -8,6 +8,7 @@ public class FileNew : MonoBehaviour
     //[3]Start 메서드 선언 : 프로그램을 시작할때 1번만 실행
     void Start()
     {
+        //[5] 출력 명령문
         Debug.Log("Hello World!"); 
     }
 
