@@ -16,19 +16,19 @@ public class IntegerDemo : MonoBehaviour
    
 }
 
-/* 정수형(Integer) 타입
+/* 정수형(Integer) 타입 [Bit > 그릇의 크기]
  * 
  * Signedinteger (+,-) 부호가 있는 정수형 데이터 형식
  * sbyte : 8 Bit -128~127
  * short : 16 Bit -32768~32767
- * int : 32 Bit -21억~21억
- * long : 64 Bit
+ * int   : 32 Bit -21억~21억
+ * long  : 64 Bit
  * 
- * 1 Byte : 8 Bit
+ * [1 Byte : 8 Bit]
  * 
  *  unSignedinteger 부호가 없는 정수형 데이터 형식
- * byte : 8 Bit 0~255
+ * byte   : 8 Bit 0~255
  * ushort : 16 Bit 0~65535
- * uint : 32 Bit 0~42억
- * ulong : 64 Bit
+ * uint   : 32 Bit 0~42억
+ * ulong  : 64 Bit
  */
