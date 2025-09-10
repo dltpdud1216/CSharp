@@ -8,7 +8,9 @@ public class ElseDemo : MonoBehaviour
         if (1 != 1)
         {
             //실행문 1
+#pragma warning disable CS0162 // 접근할 수 없는 코드가 있습니다.
             Debug.Log("조건식이 참이면 실행문 1을 실행합니다");
+#pragma warning restore CS0162 // 접근할 수 없는 코드가 있습니다.
 
         }
         else
@@ -34,8 +36,9 @@ elsd
 }
 //실행문 3
 
-1. 조건식이 참일 경우 실행문 1 -> 실행문 3 실행
+1. 조건식이 참일 경우 
+실행문 1 -> 실행문 3 실행
 
-2/.
+2/. 
 
  */
