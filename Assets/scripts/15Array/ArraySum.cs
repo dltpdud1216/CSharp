@@ -18,7 +18,7 @@ public class ArraySum : MonoBehaviour
         }
         Debug.Log($"총 합은 {sum}");
 
-        foreach (var item in arr)
+        foreach (var item in arr) //char를 var로 변경
         {
             sum+=item;
         }
